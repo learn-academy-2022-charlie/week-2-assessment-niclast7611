@@ -161,6 +161,8 @@ describe('vowel', () => {
 
 // b) Create the function that makes the test pass.
 
+//Create a function named vowel that takes a string argument 
+//
 
 const vowel = (string) => {
     for(let i=0; i<string.length; i++){

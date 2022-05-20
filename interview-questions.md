@@ -8,51 +8,39 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is the difference between a parameter and an argument?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 2. The JavaScript built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 3. What is the difference between map and filter?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 4. What is the difference between a function and a method?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 5. What is object destructuring?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 6. STRETCH: What is hoisting in JavaScript?
 
-  Your answer:
+Your answer:
 
-  Researched answer:
-
-
+Researched answer:
 
 ## Looking Ahead: Terms for Next Week
 
