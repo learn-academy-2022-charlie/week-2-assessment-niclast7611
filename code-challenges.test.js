@@ -107,6 +107,7 @@ describe('capitalize', () => {
 
 // b) Create the function that makes the test pass.
 
+// Psuedo Code
 //Create a function named capitalize
     //It will take an argument of an array with strings in it 
 //I need to iterate through the array to access each indexs value
@@ -161,15 +162,29 @@ describe('vowel', () => {
 
 // b) Create the function that makes the test pass.
 
+// Psuedo Code
 //Create a function named vowel that takes a string argument 
-//
+// I then need to iterate through each letter of the string 
+    //I do that using a for loop beginning at index 0 and going until it reaches the end length of the string inputted
+//I then use a conditional to decide if the letters being looped over are vowels
+    //I used charAt(i) to decide if the letter being picked was a vowel setting it strictly equal to a,e,i,o,u all split up by ORs
+//I then set a variable named numIndex equal too the first vowel chosen
+// return the index of the first value picked
 
-const vowel = (string) => {
-    for(let i=0; i<string.length; i++){
-        if(string.charAt(i) === 'a' || string.charAt(i) === 'e' || string.charAt(i) === 'i' || string.charAt(i) === 'o' || string.charAt(i) === 'u'){
-            var numIndex = string.charAt(i)
-            return string.indexOf(numIndex)
-        }
-    }
-}
+// const vowel = (string) => {
+//     for(let i=0; i<string.length; i++){
+//         if(string.charAt(i) === 'a' || string.charAt(i) === 'e' || string.charAt(i) === 'i' || string.charAt(i) === 'o' || string.charAt(i) === 'u'){
+//             var numIndex = string.charAt(i)
+//             return string.indexOf(numIndex)
+//         }
+//     }
+// }
 
+//I GOT GREEN
+// PASS  ./code-challenges.test.js
+// div3
+//   ✓ decides if the number is evenly divisble by three or not. (2 ms)
+// capitalize
+//   ✓ returns an array with all the words capitalized. (1 ms)
+// vowel
+//   ✓ returns the index of the first vowel. (1 ms)

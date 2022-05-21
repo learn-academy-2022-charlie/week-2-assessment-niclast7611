@@ -72,7 +72,7 @@ class Learn {
   }
 }
 var learnStudent = new Learn("George")
-// console.log(learnStudent)
+console.log(learnStudent)
 
 // a) Your answer: It should return the learnStudent class with all the information that the parent has except the name would equal George.
 // Learn { student: 'George', cohort: 'Bravo', year: 2022 }
