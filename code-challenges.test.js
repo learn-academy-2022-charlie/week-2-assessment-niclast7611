@@ -171,14 +171,14 @@ describe('vowel', () => {
 //I then set a variable named numIndex equal too the first vowel chosen
 // return the index of the first value picked
 
-// const vowel = (string) => {
-//     for(let i=0; i<string.length; i++){
-//         if(string.charAt(i) === 'a' || string.charAt(i) === 'e' || string.charAt(i) === 'i' || string.charAt(i) === 'o' || string.charAt(i) === 'u'){
-//             var numIndex = string.charAt(i)
-//             return string.indexOf(numIndex)
-//         }
-//     }
-// }
+const vowel = (string) => {
+    for(let i=0; i<string.length; i++){
+        if(string.charAt(i) === 'a' || string.charAt(i) === 'e' || string.charAt(i) === 'i' || string.charAt(i) === 'o' || string.charAt(i) === 'u'){
+            var numIndex = string.charAt(i)
+            return string.indexOf(numIndex)
+        }
+    }
+}
 
 //I GOT GREEN
 // PASS  ./code-challenges.test.js
